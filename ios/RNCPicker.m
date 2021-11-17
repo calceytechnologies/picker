@@ -118,9 +118,6 @@ numberOfRowsInComponent:(__unused NSInteger)component
   label.accessibilityIdentifier = _items[row][@"testID"];
     
   label.numberOfLines = _numberOfLines;
-
-  label.leftInset = 20.0;
-  label.rightInset = 20.0;
   
   return view;
 }
